@@ -26,7 +26,7 @@ export function AccountDetails({customer}: {customer: Customer}) {
               : 'Add name'}{' '}
           </p>
 
-          <div className="mt-4 text-sm text-primary/50">Contact</div>
+          <div className="mt-4 text-sm text/50">Contact</div>
           <p className="mt-1">{phone ?? 'Add mobile'}</p>
 
           <div className="mt-4 text-sm text-primary/50">Email address</div>
